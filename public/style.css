@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 80px;
+    display:flex;
+    padding: 20px 20px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.flowerdetails {
+    padding-top: 30px;
+}
+
+.flowerdetails {
+    flex: 0 0 auto;        
+    display: flex;         
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.flower-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: auto;
+    position: relative;
+    flex-direction: row;
+}
+
+.website_title {
+    align-items:center;
+    display: flex;
+    padding-left: 100px;
+}
